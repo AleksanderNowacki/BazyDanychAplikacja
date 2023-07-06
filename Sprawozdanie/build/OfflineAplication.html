@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Instrukcja obsługi aplikacji klienckiej &#8212; SprawozdanieBazyDanych 1.0 - dokumentacja</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Indeks" href="genindex.html" />
+    <link rel="search" title="Szukaj" href="search.html" />
+    <link rel="prev" title="Instrukcja obsługi bazy danych" href="BaseAplication.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="instrukcja-obslugi-aplikacji-klienckiej">
+<h1>Instrukcja obsługi aplikacji klienckiej<a class="headerlink" href="#instrukcja-obslugi-aplikacji-klienckiej" title="Permalink to this heading">¶</a></h1>
+<section id="elementy-obslugi">
+<h2>Elementy obsługi:<a class="headerlink" href="#elementy-obslugi" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="dodaj-samochod">
+<h2>1.      Dodaj samochód<a class="headerlink" href="#dodaj-samochod" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Użytkownik dodaje informacje o samochodzie do bazy danych podając po kolei parametry:</p></li>
+</ul>
+<ul class="simple">
+<li><p>Rok produkcji</p></li>
+<li><p>Litraż silnika</p></li>
+<li><p>Typ paliwa</p></li>
+<li><p>Typ nadwozia</p></li>
+<li><p>Masę pojazdu (w kg)</p></li>
+</ul>
+</section>
+<section id="dodaj-pomiar">
+<h2>2.      Dodaj pomiar<a class="headerlink" href="#dodaj-pomiar" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Użytkownik dodaje informacje o pomiarach emisji do bazy danych podając po kolei parametry:</p></li>
+</ul>
+<ul class="simple">
+<li><p>Typ paliwa</p></li>
+<li><p>Moc silnika (w hp)</p></li>
+<li><p>Moment obrotowy silnika (w nm)</p></li>
+<li><p>Wartość CO</p></li>
+<li><p>Wartość HC (0 jeśli samochód nie posiada wartości HC)</p></li>
+<li><p>Wartość NO</p></li>
+<li><p>Wartość PM</p></li>
+<li><p>ID samochodu</p></li>
+</ul>
+</section>
+<section id="zapisz-do-csv">
+<h2>3.      &lt;Zapisz do .csv&gt;<a class="headerlink" href="#zapisz-do-csv" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Opcja ta zapisuje wcześniej wpisane wartości samochodów i pomiarów do odpowiednich plików CSV.~</p></li>
+</ul>
+</section>
+<section id="wyjscie">
+<h2>4.      Wyjście<a class="headerlink" href="#wyjscie" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Wyjście kończy działanie programu bez zapisu danych do plików CSV.</p></li>
+</ul>
+</section>
+<section id="wpisanie-nieistniejacej-opcji">
+<h2>5.      Wpisanie nieistniejącej opcji<a class="headerlink" href="#wpisanie-nieistniejacej-opcji" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Wypisywana jest wiadomość „Nieprawidłowa opcja. Spróbuj ponownie.”.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">SprawozdanieBazyDanych</a></h1>
+
+
+
+
+
+
+
+
+<h3>Nawigacja</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Wydajnosc.html">Wydajność, skalowanie i replikacja</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BaseForUser.html">Instrukcja obsługi zarządzania danymi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BaseAplication.html">Instrukcja obsługi bazy danych</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Instrukcja obsługi aplikacji klienckiej</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#elementy-obslugi">Elementy obsługi:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dodaj-samochod">1.      Dodaj samochód</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dodaj-pomiar">2.      Dodaj pomiar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#zapisz-do-csv">3.      &lt;Zapisz do .csv&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wyjscie">4.      Wyjście</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wpisanie-nieistniejacej-opcji">5.      Wpisanie nieistniejącej opcji</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="BaseAplication.html" title="poprzedni rozdział">Instrukcja obsługi bazy danych</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Szybkie wyszukiwanie</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Szukaj" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Szczesny&Nowacki.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/OfflineAplication.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,11 @@
+NumerVIN,Marka,Model,RokProdukcji,Silnik,TypPaliwa,TypNadwozia,MasaPojazdu
+A4,Skoda,Fabia,2009,1.4,Benzyna,Sedan,1200.0
+A5,BMW,CLS,2023,3.0,Diesel,Coupe,1560.0
+A6,Volkswagen,Golf,2009,3.2,Benzyna,Hatchback,1880.0
+A7,Mini,Countryman,2020,4.8,Diesel,Hatchback,2030.0
+A8,Toyota,Harrier,2010,4.7,Benzyna,SUV,2505.0
+A9,Ford,Focus,2021,6.2,Diesel,Crossover,1955.0
+A10,Kia,Carens,2019,4,Benzyna,MPV,2200.0
+A11,Hyundai,Equus,2013,6.8,Benzyna,Sedan,2106.0
+A12,Ferrari,412,1988,18,Benzyna,Coupe,2000.0
+A13,Citroen,C5,2015,5.3,Diesel,Station wagon,2367.0

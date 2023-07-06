@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>SprawozdanieBazyDanych &#8212; SprawozdanieBazyDanych 1.0 - dokumentacja</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Indeks" href="genindex.html" />
+    <link rel="search" title="Szukaj" href="search.html" />
+    <link rel="next" title="Wydajność, skalowanie i replikacja" href="Wydajnosc.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="sprawozdaniebazydanych">
+<h1>SprawozdanieBazyDanych<a class="headerlink" href="#sprawozdaniebazydanych" title="Permalink to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Wydajnosc.html">Wydajność, skalowanie i replikacja</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Wydajnosc.html#kontrola-i-buforowanie-polaczen-z-baza-danych">Kontrola i buforowanie połączeń z bazą danych:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Wydajnosc.html#index-i-cluster">INDEX i CLUSTER:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Wydajnosc.html#rola-i-zastosowanie-replikacji">Rola i zastosowanie replikacji:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Wydajnosc.html#oprogramowanie-i-zaimplementowane-mechanizmy-replikacji">Oprogramowanie i zaimplementowane mechanizmy replikacji:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Wydajnosc.html#limity-systemu-oraz-ograniczanie-dostepu-uzytkownikow">Limity systemu oraz ograniczanie dostępu użytkowników:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Wydajnosc.html#testy-wydajnosci-sprzetu-pamiec-procesor-dyski-na-poziomie-systemu-operacyjnego">Testy wydajności sprzętu (pamięć, procesor, dyski) na poziomie systemu operacyjnego:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BaseForUser.html">Instrukcja obsługi zarządzania danymi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BaseForUser.html#elementy-obslugi">Elementy obsługi:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BaseForUser.html#wyswietl-samochody">1.      Wyświetl samochody</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseForUser.html#o-wypisuje-parametry-wszystkich-zapisanych-samochodow">o       Wypisuje parametry wszystkich zapisanych samochodów.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseForUser.html#wyswietl-pomiary">2.      Wyświetl pomiary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseForUser.html#o-opcja-ta-wypisuje-zapisane-wartosci-wszystkich-pomiarow">o       Opcja ta wypisuje zapisane wartości wszystkich pomiarów.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseForUser.html#sprawdz-norme-dla-samochodu">3.      Sprawdź normę dla samochodu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BaseAplication.html">Instrukcja obsługi bazy danych</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BaseAplication.html#elementy-obslugi">Elementy obsługi:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BaseAplication.html#importuj-samochody">1.      Importuj samochody</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="BaseAplication.html#o-po-wybraniu-tej-opcji-uzytkownik-podaje-nazwe-pliku-z-danymi-samochodow-nastepnie-sa-dodawane-do-bazy-jesli-plik-zostal-znaleziony-i-poprawnie-sczytany">o       Po wybraniu tej opcji użytkownik podaje nazwę pliku z danymi samochodów, następnie są dodawane do bazy jeśli plik został znaleziony i poprawnie sczytany.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseAplication.html#importuj-pomiary">2.      Importuj pomiary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseAplication.html#o-po-wybraniu-tej-opcji-uzytkownik-podaje-nazwe-pliku-z-danymi-pomiarow-nastepnie-sa-dodawane-do-bazy-jesli-plik-zostal-znaleziony-i-poprawnie-sczytany">o       Po wybraniu tej opcji użytkownik podaje nazwę pliku z danymi pomiarów, następnie są dodawane do bazy jeśli plik został znaleziony i poprawnie sczytany.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="BaseAplication.html#dodaj-norme">3.      Dodaj normę</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="OfflineAplication.html">Instrukcja obsługi aplikacji klienckiej</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="OfflineAplication.html#elementy-obslugi">Elementy obsługi:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="OfflineAplication.html#dodaj-samochod">1.      Dodaj samochód</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">SprawozdanieBazyDanych</a></h1>
+
+
+
+
+
+
+
+
+<h3>Nawigacja</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Wydajnosc.html">Wydajność, skalowanie i replikacja</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BaseForUser.html">Instrukcja obsługi zarządzania danymi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BaseAplication.html">Instrukcja obsługi bazy danych</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OfflineAplication.html">Instrukcja obsługi aplikacji klienckiej</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="Wydajnosc.html" title="następny rozdział">Wydajność, skalowanie i replikacja</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Szybkie wyszukiwanie</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Szukaj" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Szczesny&Nowacki.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.0.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,38 @@
+Instrukcja obsługi aplikacji klienckiej
+========================================
+------------------------------------------------------------------
+Elementy obsługi:
+------------------------------------------------------------------
+------------------------------------------------------------------
+1.	Dodaj samochód
+------------------------------------------------------------------
+o	Użytkownik dodaje informacje o samochodzie do bazy danych podając po kolei parametry:
+1.	Marka samochodu
+2.	Model samochodu
+3.	Rok produkcji
+4.	Litraż silnika
+5.	Typ paliwa
+6.	Typ nadwozia
+7.	Masę pojazdu (w kg) 
+------------------------------------------------------------------
+2.	Dodaj pomiar
+------------------------------------------------------------------
+o	Użytkownik dodaje informacje o pomiarach emisji do bazy danych podając po kolei parametry:
+1.	Szerokość geograficzną
+2.	Długość geograficzną
+3.	Typ paliwa
+4.	Moc silnika (w hp)
+5.	Moment obrotowy silnika (w nm)
+6.	Wartość CO
+7.	Wartość HC (0 jeśli samochód nie posiada wartości HC)
+8.	Wartość NO
+9.	Wartość PM
+10.	 ID samochodu
+------------------------------------------------------------------
+3.	<Zapisz do .csv>
+------------------------------------------------------------------
+o	Opcja ta zapisuje wcześniej wpisane wartości samochodów i pomiarów do odpowiednich plików CSV.
+4.	Wyjście
+o	Wyjście kończy działanie programu bez zapisu danych do plików CSV.
+5.	Wpisanie nieistniejącej opcji
+o	Wypisywana jest wiadomość „Nieprawidłowa opcja. Spróbuj ponownie.”.
